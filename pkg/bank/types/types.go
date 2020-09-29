@@ -10,11 +10,9 @@ type Category string
 type Status string
 
 
-
 // Payment представляет информацию о платеже.
 type Payment struct {
 	ID       int
 	Amount   Money
 	Category Category
-	Status   Status
 }
